@@ -2220,7 +2220,7 @@
     (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" (id 2) (at 91.44 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 91.44 111.76 0)
+    (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R000000HT76/7Nka9W5WgugoZe.xwIHJy6ebj1hW8UJ.USO_Pt2CLLo" (id 3) (at 91.44 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "UST_ID" "5dad5866128750448eca19a4" (id 4) (at -24.13 214.63 0)
