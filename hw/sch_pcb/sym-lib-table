@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name "ISM02A-rescue")(type "Legacy")(uri "${KIPRJMOD}/TFLORA01B-rescue.lib")(options "")(descr ""))
 )
