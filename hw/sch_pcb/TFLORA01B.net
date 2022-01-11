@@ -13,7 +13,7 @@
         (company "Mlab www.mlab.cz") 
         (rev REV) 
         (date %F) 
-        (source ISM02B.sch) 
+        (source TFLORA01B.sch) 
         (comment 
           (number 1) 
           (value VERSION)) 
