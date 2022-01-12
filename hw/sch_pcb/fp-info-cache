@@ -1,4 +1,4 @@
-32155118092699
+37029829273122
 Mlab_CON
 1_kontakty
 Jeden samotný kontakt na vodič
@@ -12,6 +12,13 @@ Pro vypínač do panelu na vodičích
 
 0
 2
+2
+Mlab_CON
+292-04A-6
+
+
+0
+3
 2
 Mlab_CON
 AVX_009175003001006
@@ -35,6 +42,13 @@ sd card
 13
 10
 Mlab_CON
+IDC381-8-110
+
+
+0
+8
+8
+Mlab_CON
 MCC-SD
 SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
 sd card
@@ -54,6 +68,13 @@ MCX
 
 0
 5
+2
+Mlab_CON
+MCX_Molex_73415-1061
+https://www.molex.com/pdm_docs/sd/734151061_sd.pdf
+
+0
+3
 2
 Mlab_CON
 RJ12GLP-AMP(RJ12)
