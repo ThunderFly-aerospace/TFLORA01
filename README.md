@@ -18,19 +18,19 @@ TFLORA01A is slightly modified version of [MLAB's ISM02A module](https://github.
 
 The modifications are following.
 
-** Jumper between SDIO1 and BUSY pins **
+**Jumper between SDIO1 and BUSY pins**
 
 There is one jumper present between the SDOIO1 and "BUSY" pins. The BUSY pin is actually disconnected, but the signal is fed to Autopilot's JST-GH connector.
 
 ![TFLORA01A top jumper](doc/img/TFLORA01A_PX4_connection.jpg)
 
-** Trace break on BUSY pin **
+**Trace break on BUSY pin**
 
 Trace between the first and the second pin on BUSY header is scratched to disconnect the both pins.
 
 ![ISM02A Bottom](doc/img/SPI_connector_hack.jpg)
 
-The result of that modifications is BUSY signal on JST-GH SPI connector connected to PX4 autopilot is actually the SDIO1 signal. 
+The result of that modifications is BUSY signal on JST-GH SPI connector connected to PX4 autopilot is actually the SDIO1 signal. That configuration has been used in the [FIK-6 balloon flight](https://github.com/ODZ-UJF-AV-CR/FIK-6).
 
 ## Parameters
 
