@@ -8,7 +8,7 @@
 <!--- Label --->
 <!--- ELabel --->
 <!--- Name:ISM02A: --->
-# ISM02B
+# TFLORA01B - UAV LoRa transceiver module 
 <!--- LongName --->
 ##
 <!--- ELongName --->
@@ -16,13 +16,6 @@
 <!--- Lead --->
 
 <!--- Description --->
-RF Transceiver module with [SX1262](https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1262). The SX1262 has several advantages to widely SX127x used alternative
-
-  * More power-efficient
-  * More features
-  * Smaller footprint
-  * Less external components
-  * Can use them for the satellite service
 
 <!--- ELead --->
 
@@ -33,8 +26,6 @@ RF Transceiver module with [SX1262](https://www.semtech.com/products/wireless-rf
 ![ISM02B Top](doc/img/ISM02B_top.png)
 
 ![ISM02B Bottom](doc/img/ISM02B_bot.png) 
-
-
 
 
 <!--- EDescription --->
