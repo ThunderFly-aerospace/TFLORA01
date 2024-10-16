@@ -1,6 +1,2 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C9","100nF","C_0603_1608Metric",177.0888,-91.9988,0.0000,top
 "J12","MCX","MCX_Molex_73415-1061",179.3748,-114.3000,180.0000,top
-"R8","10k","R_0603_1608Metric",175.8292,-75.2280,0.0000,top
-"U2","74LVC1G157","SOT-363_SC-70-6",172.9588,-92.6688,0.0000,top
-"X1","IT3205CE 32MHz","Oscillator_DIP-14",155.0792,-84.9080,0.0000,top

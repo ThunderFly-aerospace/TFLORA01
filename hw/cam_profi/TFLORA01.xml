@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFLORA01.kicad_sch</source>
-    <date>2024-10-16T20:04:20+0000</date>
+    <date>2024-10-16T20:55:53+0000</date>
     <tool>Eeschema 8.0.4+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -933,22 +933,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d5b16bba-6de8-45db-b493-dfea34cb144c</tstamps>
     </comp>
-    <comp ref="X1">
-      <value>IT3205CE 32MHz</value>
-      <footprint>Oscillator:Oscillator_DIP-14</footprint>
-      <datasheet>http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf</datasheet>
+    <comp ref="U5">
+      <value>ECS-TXO-32CSMV-320-AN-TR</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/122/ECS_TXO_32CSMV-1663895.pdf</datasheet>
+      <description>TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD</description>
       <fields>
-        <field name="Footprint">Oscillator:Oscillator_DIP-14</field>
-        <field name="Datasheet">http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf</field>
-        <field name="Description"/>
+        <field name="UST_ID"/>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/122/ECS_TXO_32CSMV-1663895.pdf</field>
+        <field name="Description">TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD</field>
       </fields>
-      <libsource lib="Oscillator" part="TCXO-14" description="Temperature Compensated Crystal Clock Oscillator, DIP14-style metal package"/>
+      <libsource lib="Oscillator" part="FT5HN" description="HCMOS temperature compensated oscillator"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
-      <property name="ki_keywords" value="Crystal Clock Oscillator"/>
-      <property name="ki_fp_filters" value="Oscillator*DIP*14*"/>
+      <property name="ki_keywords" value="TXCO"/>
+      <property name="ki_fp_filters" value="Oscillator*SMD*Fox*FT5H*5.0x3.2mm*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd087107-0472-4192-aa97-5bd7eef97c15</tstamps>
+      <tstamps>708fe0df-a180-4a50-8a4d-d8559d504ce2</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1259,24 +1262,24 @@
         <pin num="6" name="#CTRL" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Oscillator" part="TCXO-14">
-      <description>Temperature Compensated Crystal Clock Oscillator, DIP14-style metal package</description>
-      <docs>http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf</docs>
+    <libpart lib="Oscillator" part="FT5HN">
+      <description>HCMOS temperature compensated oscillator</description>
+      <docs>https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf</docs>
       <footprints>
-        <fp>Oscillator*DIP*14*</fp>
+        <fp>Oscillator*SMD*Fox*FT5H*5.0x3.2mm*</fp>
       </footprints>
       <fields>
-        <field name="Reference">X</field>
-        <field name="Value">TCXO-14</field>
-        <field name="Footprint">Oscillator:Oscillator_DIP-14</field>
-        <field name="Datasheet">http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf</field>
-        <field name="Description">Temperature Compensated Crystal Clock Oscillator, DIP14-style metal package</field>
+        <field name="Reference">U</field>
+        <field name="Value">FT5HN</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Fox_FT5H_5.0x3.2mm</field>
+        <field name="Datasheet">https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf</field>
+        <field name="Description">HCMOS temperature compensated oscillator</field>
       </fields>
       <pins>
-        <pin num="1" name="NC" type="no_connect"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="OUT" type="output"/>
-        <pin num="14" name="Vcc" type="power_in"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
       </pins>
     </libpart>
   </libparts>
@@ -1304,7 +1307,7 @@
       <node ref="U3" pin="10" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U3" pin="11" pinfunction="VBAT_IO" pintype="power_in"/>
       <node ref="U4" pin="6" pinfunction="#CTRL" pintype="input"/>
-      <node ref="X1" pin="14" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -1390,7 +1393,8 @@
       <node ref="U3" pin="5" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="GND" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="X1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="13" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
@@ -1503,18 +1507,15 @@
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="RFC" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(X1-OUT)">
+    <net code="37" name="Net-(U5-OUT)">
       <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="X1" pin="8" pinfunction="OUT" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
     <net code="38" name="unconnected-(U1-NC-Pad4)">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
     <net code="39" name="unconnected-(U3-XTB-Pad4)">
       <node ref="U3" pin="4" pinfunction="XTB" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(X1-NC-Pad1)">
-      <node ref="X1" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>

@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 75.79x29.97 mm (2.98x1.18 inches)
+Board size: 86.29x31.02 mm (3.4x1.22 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -65,8 +65,8 @@ Eurocircuits class: 6D
 
 Components count: (SMD/THT)
 
-- Top: 4/1 (SMD + THT)
-- Bottom: 46/0 (SMD)
+- Top: 1/0 (SMD)
+- Bottom: 50/0 (SMD)
 
 Defined tracks:
 
@@ -74,9 +74,9 @@ Defined tracks:
 Used tracks:
 
 - 0.15 mm (6 mils) (2) defined: no
-- 0.25 mm (10 mils) (120) defined: no
+- 0.25 mm (10 mils) (95) defined: no
 - 0.3 mm (12 mils) (24) defined: no
-- 0.5 mm (20 mils) (82) defined: no
+- 0.5 mm (20 mils) (80) defined: no
 
 Defined vias:
 
@@ -88,7 +88,6 @@ Used vias:
 Holes (excluding vias):
 
 - 0.2 mm (8 mils) (9)
-- 0.8 mm (31 mils) (4)
 
 Oval holes:
 
@@ -97,7 +96,6 @@ Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (9)
 - 0.4 mm (16 mils) (187)
-- 0.9 mm (35 mils) (4)
 
 Solder paste stats:
 
@@ -108,9 +106,9 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Top    |              13 |      31.03 |      0.15 |
-| Bottom |             133 |     124.79 |      0.62 |
-| Total  |             146 |     155.82 |      0.78 |
+| Top    |               3 |      26.41 |      0.13 |
+| Bottom |             147 |     135.13 |      0.67 |
+| Total  |             150 |     161.54 |      0.80 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
