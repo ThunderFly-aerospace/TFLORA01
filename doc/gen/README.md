@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 51.13x29.97 mm (2.01x1.18 inches)
+Board size: 55.0x30.0 mm (2.17x1.18 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -71,13 +71,14 @@ Components count: (SMD/THT)
 Defined tracks:
 
 - 0.4 mm (16 mils)
+- 0.5 mm (20 mils)
 
 Used tracks:
 
 - 0.15 mm (6 mils) (2) defined: no
 - 0.25 mm (10 mils) (154) defined: no
-- 0.4 mm (16 mils) (45) defined: yes
-- 0.5 mm (20 mils) (46) defined: no
+- 0.4 mm (16 mils) (41) defined: yes
+- 0.5 mm (20 mils) (47) defined: yes
 
 Defined vias:
 
