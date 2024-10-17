@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFLORA01.kicad_sch</source>
-    <date>2024-10-16T22:27:09+0000</date>
+    <date>2024-10-17T10:47:07+0000</date>
     <tool>Eeschema 8.0.4+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -442,6 +442,23 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005da97017</tstamps>
     </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ISM02A-rescue" part="C-Device-ISM02A-rescue" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf908254-f416-4206-b8fc-66d7a16ed646</tstamps>
+    </comp>
     <comp ref="D1">
       <value>BZX585-B5V6.115</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
@@ -575,11 +592,11 @@
     </comp>
     <comp ref="L1">
       <value>47nH</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN47NJ00D</field>
         <field name="UST_ID">5dad56ba128750448eca1968</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -594,10 +611,10 @@
     </comp>
     <comp ref="L2">
       <value>0R</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8949</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -611,11 +628,11 @@
     </comp>
     <comp ref="L3">
       <value>2n5</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN2N5C00D</field>
         <field name="UST_ID">5dad56ff128750448eca1975</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -630,11 +647,11 @@
     </comp>
     <comp ref="L4">
       <value>4n7</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN4N7C00D</field>
         <field name="UST_ID">5dad574f128750448eca1986</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -649,11 +666,11 @@
     </comp>
     <comp ref="L5">
       <value>9n1</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN9N1H00D</field>
         <field name="UST_ID">5dad5789128750448eca1995</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -668,11 +685,11 @@
     </comp>
     <comp ref="L6">
       <value>15nH</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN15NH00D</field>
         <field name="UST_ID">5dad566c128750448eca1959</field>
-        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -832,7 +849,7 @@
       <tstamps>00000000-0000-0000-0000-00005da81670</tstamps>
     </comp>
     <comp ref="R8">
-      <value>10k</value>
+      <value>220R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8962</field>
@@ -1336,6 +1353,7 @@
   <nets>
     <net code="1" name="+3V3">
       <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
@@ -1409,6 +1427,7 @@
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
