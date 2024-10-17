@@ -34,24 +34,24 @@ Stackup:
 
 # Important sizes
 
-Clearance: 0.25 mm (10 mils)
+Clearance: 0.22 mm (9 mils)
 
-Track width: 0.15 mm (6 mils)
+Track width: 0.25 mm (10 mils)
 
 - By design rules: 0.2 mm (8 mils)
 
 Drill: 0.3 mm (12 mils)
 
-- Vias: 0.4 mm (16 mils) [Design: 0.4 mm (16 mils)]
+- Vias: 0.4 mm (16 mils) [Design: 0.3 mm (12 mils)]
 - Pads: 0.3 mm (12 mils)
 - The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
 
 Via: 0.6/0.3 mm (24/12 mils)
 
-- By design rules: 0.4/0.3 mm (16/12 mils)
+- By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 171 (thru: 171 buried/blind: 0 micro: 0)
+- Total: 202 (thru: 202 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.1 mm (4 mils)
 
@@ -75,17 +75,16 @@ Defined tracks:
 
 Used tracks:
 
-- 0.15 mm (6 mils) (2) defined: no
-- 0.25 mm (10 mils) (154) defined: no
-- 0.4 mm (16 mils) (41) defined: yes
-- 0.5 mm (20 mils) (47) defined: yes
+- 0.25 mm (10 mils) (157) defined: no
+- 0.4 mm (16 mils) (33) defined: yes
+- 0.5 mm (20 mils) (64) defined: yes
 
 Defined vias:
 
 
 Used vias:
 
-- 0.6/0.3 mm (24/12 mils) (Count: 171, Aspect: 2.7 A) defined: no
+- 0.6/0.3 mm (24/12 mils) (Count: 202, Aspect: 2.7 A) defined: no
 
 Holes (excluding vias):
 
@@ -99,7 +98,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (9)
-- 0.4 mm (16 mils) (171)
+- 0.4 mm (16 mils) (202)
 - 1.6 mm (63 mils) (1)
 - 1.8 mm (71 mils) (4)
 
@@ -112,7 +111,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |             150 |     115.83 |      0.58 |
+| Total  |             150 |     116.10 |      0.58 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
