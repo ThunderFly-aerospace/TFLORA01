@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFLORA01.kicad_sch</source>
-    <date>2024-10-17T22:24:44+0000</date>
+    <date>2024-10-18T09:57:47+0000</date>
     <tool>Eeschema 8.0.4+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -538,6 +538,21 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5fa6a047-d2e1-4a65-8568-b4e93098cac2</tstamps>
     </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>MLAB_LOGA:TF</footprint>
+      <fields>
+        <field name="Footprint">MLAB_LOGA:TF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_TF_LOGO" part="LOGO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f047ddbe-3dda-4d39-b9ae-0baeed28de2f</tstamps>
+    </comp>
     <comp ref="J1">
       <value>SM07B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM07B-GHS-TB_1x07-1MP_P1.25mm_Horizontal</footprint>
@@ -594,15 +609,15 @@
       <value>47nH</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MFPN">LQW15AN47NJ00D</field>
-        <field name="UST_ID">5dad56ba128750448eca1968</field>
+        <field name="MFPN">LQW18AS47NG00D</field>
+        <field name="UST_ID">5c70984412875079b91f8813</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="MFPN" value="LQW15AN47NJ00D"/>
-      <property name="UST_ID" value="5dad56ba128750448eca1968"/>
+      <property name="MFPN" value="LQW18AS47NG00D"/>
+      <property name="UST_ID" value="5c70984412875079b91f8813"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -613,13 +628,13 @@
       <value>0R</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8949</field>
+        <field name="UST_ID">5c70984512875079b91f894e</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f8949"/>
+      <property name="UST_ID" value="5c70984512875079b91f894e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -627,18 +642,18 @@
       <tstamps>00000000-0000-0000-0000-00005da88141</tstamps>
     </comp>
     <comp ref="L3">
-      <value>2n5</value>
+      <value>2n4</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="MFPN">LQW15AN2N5C00D</field>
-        <field name="UST_ID">5dad56ff128750448eca1975</field>
+        <field name="UST_ID">67119a34d509c19f2ce8ec7b</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
       <property name="MFPN" value="LQW15AN2N5C00D"/>
-      <property name="UST_ID" value="5dad56ff128750448eca1975"/>
+      <property name="UST_ID" value="67119a34d509c19f2ce8ec7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -649,15 +664,15 @@
       <value>4n7</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MFPN">LQW15AN4N7C00D</field>
-        <field name="UST_ID">5dad574f128750448eca1986</field>
+        <field name="MFPN">LQW18AN4N7D00D</field>
+        <field name="UST_ID">671226edd509c19f2ce8ed2d</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="MFPN" value="LQW15AN4N7C00D"/>
-      <property name="UST_ID" value="5dad574f128750448eca1986"/>
+      <property name="MFPN" value="LQW18AN4N7D00D"/>
+      <property name="UST_ID" value="671226edd509c19f2ce8ed2d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -668,15 +683,15 @@
       <value>9n1</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MFPN">LQW15AN9N1H00D</field>
-        <field name="UST_ID">5dad5789128750448eca1995</field>
+        <field name="MFPN">LQW18AN9N1D00D</field>
+        <field name="UST_ID">67122378d509c19f2ce8ecdb</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="MFPN" value="LQW15AN9N1H00D"/>
-      <property name="UST_ID" value="5dad5789128750448eca1995"/>
+      <property name="MFPN" value="LQW18AN9N1D00D"/>
+      <property name="UST_ID" value="67122378d509c19f2ce8ecdb"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -687,15 +702,15 @@
       <value>15nH</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MFPN">LQW15AN15NH00D</field>
-        <field name="UST_ID">5dad566c128750448eca1959</field>
+        <field name="MFPN"> LQW18AN15NJ10D</field>
+        <field name="UST_ID">671220a9d509c19f2ce8eca2</field>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="MFPN" value="LQW15AN15NH00D"/>
-      <property name="UST_ID" value="5dad566c128750448eca1959"/>
+      <property name="MFPN" value=" LQW18AN15NJ10D"/>
+      <property name="UST_ID" value="671220a9d509c19f2ce8eca2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -1317,6 +1332,15 @@
         <pin num="5" name="RFC" type="passive"/>
         <pin num="6" name="#CTRL" type="input"/>
       </pins>
+    </libpart>
+    <libpart lib="MLAB_TF_LOGO" part="LOGO">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO</field>
+        <field name="Footprint">MLAB_LOGA:TF 10x4,7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
     </libpart>
     <libpart lib="Oscillator" part="FT5HN">
       <description>HCMOS temperature compensated oscillator</description>

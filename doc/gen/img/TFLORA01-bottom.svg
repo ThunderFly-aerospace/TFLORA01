@@ -4680,7 +4680,7 @@
     <rect style="fill:url(#pref_27linearGradient2455);fill-opacity:1;fill-rule:evenodd;stroke:#a57000;stroke-width:0.0113179;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="pref_27rect2453" width="0.097845085" height="0.77169484" x="1.0041462" y="0.013014116" transform="matrix(1,0,-0.11970281,0.99280977,0,0)"/>
     <rect style="fill:url(#pref_27linearGradient2459);fill-opacity:1;fill-rule:evenodd;stroke:#a57000;stroke-width:0.0113179;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="pref_27rect2457" width="0.097845085" height="0.77169484" x="1.1019913" y="0.013014116" transform="matrix(1,0,-0.11970281,0.99280977,0,0)"/>
   </g>
-</g></g><!--Inductor_SMD:L_0603_1608Metric:L3--><g transform="translate(160.1978 120.904) scale(0.99999944040291, 1.0) rotate(-0.0) translate(-0.787 -0.40599999)"><g id="pref_12_Inductor_SMD__L_0603_1608Metric_2n5"><defs xmlns:xlink="http://www.w3.org/1999/xlink" id="pref_28defs13">
+</g></g><!--Inductor_SMD:L_0603_1608Metric:L3--><g transform="translate(160.1978 120.904) scale(0.99999944040291, 1.0) rotate(-0.0) translate(-0.787 -0.40599999)"><g id="pref_12_Inductor_SMD__L_0603_1608Metric_2n4"><defs xmlns:xlink="http://www.w3.org/1999/xlink" id="pref_28defs13">
     <linearGradient id="pref_28linearGradient1166">
       <stop style="stop-color:#c28500;stop-opacity:1" offset="0" id="pref_28stop1162"/>
       <stop style="stop-color:#e79e00;stop-opacity:1;" offset="0.28509352" id="pref_28stop1362"/>
