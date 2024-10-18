@@ -1,4 +1,4 @@
-# TFLORA01B - UAV LoRa Transceiver Module
+# TFLORA01 - UAV LoRa and FSK Transceiver
 
 The TFLORA01B module is designed for long-range telemetry transmission from UAVs using LoRa technology. It operates in the sub-GHz frequency band and is based on the Semtech SX1262 transceiver, which supports LoRa and (G)FSK modulation for various telemetry and IoT applications.
 
@@ -31,11 +31,12 @@ For detailed usage instructions or custom integration, please contact **[Thunder
 | Dimensions     | 55 x 30 mm           | PCB size                         |
 | Output Power   | Up to +22 dBm         | RF output power (SX1262)            |
 | Frequency Range| 150 MHz - 960 MHz     | Supports all major sub-GHz ISM bands like 433 and 868 MHz|
+| Interface      | 7-PIN JST-GH SPI     | [Pixhawk SPI connector defined by standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf)| 
 | Power Supply   | 3.7-5.4V@100mA       | Suitable for miniature UAVs   |
 
 ## Usage
 
-The module is intended for UAV telemetry applications, with PX4 firmware handling MAVLink telemetry streams. Additionally, custom LoRa packets can be transmitted to LoRaWAN networks, enhancing UAV-to-IoT capabilities. This dual-purpose use case is ideal for integrating UAV operations with broader IoT infrastructure.
+The module is intended to be connected by SPI to the flight controller (FC), with the FC's firmware handling MAVLink telemetry streams. The custom LoRa packets can be transmitted to LoRaWAN networks, enhancing UAV-to-IoT capabilities. This dual-purpose use case is ideal for integrating UAV operations with broader IoT infrastructure.
 
 ## Integration with PX4
 
