@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFLORA01.kicad_sch</source>
-    <date>2024-10-18T09:57:47+0000</date>
+    <date>2024-10-18T10:21:54+0000</date>
     <tool>Eeschema 8.0.4+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -212,11 +212,13 @@
       <value>10pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8be2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C-Device-ISM02A-rescue" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8be2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -573,13 +575,13 @@
       <value>MCX</value>
       <footprint>Mlab_CON:MCX</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5fa10cc512875025b39779f6</field>
         <field name="Footprint">Mlab_CON:MCX</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="SMA-MLAB_CONNECTORS" description=""/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5fa10cc512875025b39779f6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -867,13 +869,13 @@
       <value>220R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="UST_ID">5c70984512875079b91f8958</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="R-Device-ISM02A-rescue" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f8962"/>
+      <property name="UST_ID" value="5c70984512875079b91f8958"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -957,11 +959,13 @@
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>https://www.tme.eu/Document/3af3c01614330665a6102aec55591437/74LVC1G157.pdf</datasheet>
       <fields>
+        <field name="UST_ID">67123367d509c19f2ce8edcb</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
         <field name="Datasheet">https://www.tme.eu/Document/3af3c01614330665a6102aec55591437/74LVC1G157.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_IO" part="74LVC1G157" description=""/>
+      <property name="UST_ID" value="67123367d509c19f2ce8edcb"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1010,13 +1014,13 @@
       <datasheet>https://eu.mouser.com/datasheet/2/122/ECS_TXO_32CSMV-1663895.pdf</datasheet>
       <description>TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">6712346fd509c19f2ce8ee06</field>
         <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/122/ECS_TXO_32CSMV-1663895.pdf</field>
         <field name="Description">TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD</field>
       </fields>
       <libsource lib="Oscillator" part="FT5HN" description="HCMOS temperature compensated oscillator"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="6712346fd509c19f2ce8ee06"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_keywords" value="TXCO"/>
