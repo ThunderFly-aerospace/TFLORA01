@@ -2038,6 +2038,20 @@
 				)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8be2"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9a834d7-fdc1-4ad2-aaca-d9fe793f7682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005da84b07")
 		(sheetname "Root")
@@ -8971,7 +8985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5fa10cc512875025b39779f6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11570,7 +11584,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f8962"
+		(property "UST_ID" "5c70984512875079b91f8958"
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -11794,6 +11808,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "67123367d509c19f2ce8edcb"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49df2043-3be9-478e-b1c7-251e2700c0a0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12370,7 +12398,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "6712346fd509c19f2ce8ee06"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
