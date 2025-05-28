@@ -10,7 +10,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 9,Unpolarized capacitor,C,C22,1nF,C_0603_1608Metric,1,~,,5c70984812875079b91f8bec,
 10,,C-Device-ISM02A-rescue,C7,47nF,C_0603_1608Metric,1,,,5dad51cf128750448eca18d8,X7R 1% 16V
 11,,C-Device-ISM02A-rescue,C6C9C24,100nF,C_0603_1608Metric,3,,,5c70984812875079b91f8bf2,
-12,,C_Small-Device-ISM02A-rescue,C4,100nF,C_0603_1608Metric,1,,,C0805_100n,
+12,,C_Small-Device-ISM02A-rescue,C4,100nF,C_0603_1608Metric,1,,,5c70984812875079b91f8bf2,
 13,,C-Device-ISM02A-rescue,C23,470nF,C_0603_1608Metric,1,,,5dad50c1128750448eca18c6,X5R 10% 10V
 14,,C-Device-ISM02A-rescue,C5,1uF,C_0603_1608Metric,1,,,5c70984812875079b91f8bc2,
 15,,C_Small-Device-ISM02A-rescue,C1C2C3,10uF,C_0805_2012Metric,3,,,5c70984812875079b91f8bbe,
