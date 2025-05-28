@@ -9833,15 +9833,6 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 124.46 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "5dad53d8128750448eca1906"
 			(at -7.62 -17.78 0)
 			(effects
@@ -9873,7 +9864,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005dac2dca")
 		(property "Reference" "C20"
 			(at 136.271 135.9916 0)
@@ -9912,6 +9903,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 133.35 137.16 0)
 			(effects
 				(font
