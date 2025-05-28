@@ -8181,7 +8181,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f894e"
+		(property "UST_ID_868" "5c70984512875079b91f894e"
 			(at 218.44 -48.26 0)
 			(effects
 				(font
@@ -8257,16 +8257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5cd09016128750448e45434f"
+		(property "UST_ID_868" "5cd09016128750448e45434f"
 			(at 50.8 -76.2 0)
 			(effects
 				(font
@@ -8431,6 +8422,24 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID_868" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79cb2d34-799e-4e63-a83a-1c04252ad2ce")
 		)
@@ -8500,16 +8509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,25pF 50V"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5dad5450128750448eca1919"
+		(property "UST_ID_868" "5dad5450128750448eca1919"
 			(at -24.13 204.47 0)
 			(effects
 				(font
@@ -8594,8 +8594,17 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5dad549f128750448eca1926"
+		(property "UST_ID_868" "5dad549f128750448eca1926"
 			(at 53.34 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8689,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "671226edd509c19f2ce8ed2d"
+		(property "UST_ID_868" "671226edd509c19f2ce8ed2d"
 			(at 257.81 -87.63 0)
 			(effects
 				(font
@@ -8758,16 +8767,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5c70984812875079b91f8bdd"
+		(property "UST_ID_868" "5c70984812875079b91f8bdd"
 			(at -24.13 204.47 0)
 			(effects
 				(font
@@ -9757,7 +9757,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "671220a9d509c19f2ce8eca2"
+		(property "UST_ID_868" "671220a9d509c19f2ce8eca2"
 			(at 252.73 -1.27 0)
 			(effects
 				(font
@@ -9833,7 +9833,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5dad53d8128750448eca1906"
+		(property "UST_ID_868" "5dad53d8128750448eca1906"
 			(at -7.62 -17.78 0)
 			(effects
 				(font
@@ -9864,7 +9864,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dac2dca")
 		(property "Reference" "C20"
 			(at 136.271 135.9916 0)
@@ -9989,16 +9989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 114.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5dad52a4128750448eca18e8"
+		(property "UST_ID_868" "5dad52a4128750448eca18e8"
 			(at -24.13 298.45 0)
 			(effects
 				(font
@@ -10200,16 +10191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 5% 50V"
-			(at 214.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5dad549f128750448eca1926"
+		(property "UST_ID_868" "5dad549f128750448eca1926"
 			(at 116.84 -78.74 0)
 			(effects
 				(font
@@ -10287,16 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 222.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5cd09016128750448e45434f"
+		(property "UST_ID_868" "5cd09016128750448e45434f"
 			(at 430.53 24.13 0)
 			(effects
 				(font
@@ -10382,7 +10355,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "67122378d509c19f2ce8ecdb"
+		(property "UST_ID_868" "67122378d509c19f2ce8ecdb"
 			(at 327.66 -93.98 0)
 			(effects
 				(font
@@ -10460,16 +10433,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0G 0,1pF 50V"
-			(at 237.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5cd09016128750448e45434f"
+		(property "UST_ID_868" "5cd09016128750448e45434f"
 			(at 461.01 24.13 0)
 			(effects
 				(font
