@@ -1,7 +1,7 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,mfpn,ust_id
 1,,C-Device-ISM02A-rescue,C21,1p8,C_0603_1608Metric,1,,"C0G 0,1pF 50V",5dad52a4128750448eca18e8
 2,,C-Device-ISM02A-rescue,C15,2p2,C_0603_1608Metric,1,,"C0G 0,1pF 50V",5c70984812875079b91f8bdd
-3,,C-Device-ISM02A-rescue,C19,2p4,C_0603_1608Metric,1,,"C0G 0,1pF 50V",5dad53d8128750448eca1906
+3,,C-Device-ISM02A-rescue,C19,2p4,C_0603_1608Metric,1,,,5dad53d8128750448eca1906
 4,,C-Device-ISM02A-rescue,C10C17C18,3p3,C_0603_1608Metric,3,,"C0G 0,1pF 50V",5cd09016128750448e45434f
 5,,C-Device-ISM02A-rescue,C14,5p6,C_0603_1608Metric,1,,"C0G 0,25pF 50V",5dad5450128750448eca1919
 6,,C-Device-ISM02A-rescue,C11,10pF,C_0603_1608Metric,1,,,5c70984812875079b91f8be2
@@ -14,7 +14,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 13,,C-Device-ISM02A-rescue,C23,470nF,C_0603_1608Metric,1,,X5R 10% 10V,5dad50c1128750448eca18c6
 14,,C-Device-ISM02A-rescue,C5,1uF,C_0603_1608Metric,1,,,5c70984812875079b91f8bc2
 15,,C_Small-Device-ISM02A-rescue,C1C2C3,10uF,C_0805_2012Metric,3,,,5c70984812875079b91f8bbe
-16,,C-Device-ISM02A-rescue,C13C20,-,C_0603_1608Metric,2,,,
+16,,C-Device-ISM02A-rescue,C13,-,C_0603_1608Metric,1,,,
 17,,D_ZENER,D1,BZX585-B5V6.115,D_SOD-523,1,,,60879d38128750769ee58e48
 18,Light emitting diode,LED,D2,LED GREEN,LED_1206_mill,1,~,,5c70984412875079b91f8895
 19,Light emitting diode,LED,D3D4,LED RED,LED_1206_mill,2,~,,5c70984412875079b91f8896
