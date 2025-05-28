@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFLORA01.kicad_sch</source>
-    <date>2025-05-28T13:34:42+0000</date>
+    <date>2025-05-28T13:44:52+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,14 +28,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -47,14 +45,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -66,14 +62,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -457,14 +451,12 @@
       <value>BZX585-B5V6.115</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">60879d38128750769ee58e48</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_D" part="D_ZENER" description=""/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -476,14 +468,12 @@
       <value>LED GREEN</value>
       <footprint>Mlab_D:LED_1206_mill</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984412875079b91f8895</field>
         <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984412875079b91f8895"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -496,14 +486,12 @@
       <value>LED RED</value>
       <footprint>Mlab_D:LED_1206_mill</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984412875079b91f8896</field>
         <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -516,14 +504,12 @@
       <value>LED RED</value>
       <footprint>Mlab_D:LED_1206_mill</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5c70984412875079b91f8896</field>
         <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
@@ -696,15 +682,17 @@
       <value>15nH</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MFPN"> LQW18AN15NJ10D</field>
+        <field name="MFPN">LQW18AN15NJ10D</field>
         <field name="UST_ID_868">671220a9d509c19f2ce8eca2</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="L-Device-ISM02A-rescue" description=""/>
-      <property name="MFPN" value=" LQW18AN15NJ10D"/>
+      <property name="MFPN" value="LQW18AN15NJ10D"/>
       <property name="UST_ID_868" value="671220a9d509c19f2ce8eca2"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
@@ -752,14 +740,12 @@
       <value>130R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_id"/>
         <field name="UST_ID">5cd08b17128750448e4542b1</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_id" value=""/>
       <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFLORA01.kicad_sch"/>
