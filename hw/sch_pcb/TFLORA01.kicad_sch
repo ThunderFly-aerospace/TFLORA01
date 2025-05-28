@@ -6544,15 +6544,6 @@
 				(hide yes)
 			)
 		)
-		(property "UST_id" "C0805_100n"
-			(at 196.215 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at -53.975 58.42 0)
 			(effects
