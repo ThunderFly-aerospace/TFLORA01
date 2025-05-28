@@ -6917,15 +6917,6 @@
 				(hide yes)
 			)
 		)
-		(property "UST_id" ""
-			(at 188.595 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "5c70984812875079b91f8bbe"
 			(at -53.975 58.42 0)
 			(effects
@@ -7145,15 +7136,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_id" ""
 			(at 153.67 29.21 0)
 			(effects
 				(font
@@ -9409,15 +9391,6 @@
 				(hide yes)
 			)
 		)
-		(property "UST_id" ""
-			(at 120.65 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "5c70984812875079b91f8bbe"
 			(at -59.69 59.69 0)
 			(effects
@@ -9748,7 +9721,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" " LQW18AN15NJ10D"
+		(property "MFPN" "LQW18AN15NJ10D"
 			(at 252.73 -1.27 0)
 			(effects
 				(font
@@ -9759,6 +9732,15 @@
 		)
 		(property "UST_ID_868" "671220a9d509c19f2ce8eca2"
 			(at 252.73 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,15 +10821,6 @@
 				(hide yes)
 			)
 		)
-		(property "UST_id" ""
-			(at 107.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "5cd08b17128750448e4542b1"
 			(at 107.95 29.21 0)
 			(effects
@@ -11337,15 +11310,6 @@
 				(hide yes)
 			)
 		)
-		(property "UST_id" ""
-			(at 203.835 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "UST_ID" "60879d38128750769ee58e48"
 			(at 203.835 29.21 0)
 			(effects
@@ -11414,15 +11378,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_id" ""
 			(at 58.42 142.24 0)
 			(effects
 				(font
@@ -11735,15 +11690,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_id" ""
 			(at 46.99 142.24 0)
 			(effects
 				(font
@@ -12990,15 +12936,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_id" ""
 			(at 107.95 38.1 0)
 			(effects
 				(font

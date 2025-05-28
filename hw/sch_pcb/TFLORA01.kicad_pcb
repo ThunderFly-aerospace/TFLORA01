@@ -3703,7 +3703,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" " LQW18AN15NJ10D"
+		(property "MFPN" "LQW18AN15NJ10D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3723,6 +3723,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cec9556c-9281-450c-adde-32f1160ba937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c68d13c0-b34f-461e-8e65-bcf5dd5e74be")
 			(effects
 				(font
 					(size 1 1)
@@ -7654,19 +7668,6 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_id" ""
-			(at 246.4435 -26.8605 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c4dbfc64-d094-407c-a324-64417d2b22ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005da80313")
 		(sheetname "/")
@@ -7882,19 +7883,6 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_id" ""
-			(at 32.986 253.09 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dac14e9b-eb18-46c6-8322-9d69d2e626dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005da9bb24")
 		(sheetname "/")
@@ -8102,19 +8090,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b0ee1df9-6f04-4baf-aedc-5ec9559082af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "UST_id" ""
-			(at 253.9365 -36.6395 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "61eb2c7e-4232-4760-8b2c-9dc4336aa12b")
 			(effects
 				(font
 					(size 1 1)
@@ -8963,20 +8938,6 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_id" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "43aa1533-45fe-4cca-990f-6d7c503cf5cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/de7e859e-ac76-4fa2-8e66-7e05274cc8fe")
 		(sheetname "/")
@@ -9686,20 +9647,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "UST_id" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "560b2e9a-007d-4862-a38e-f9ba4e77c60f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10467,19 +10414,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eac889f2-302b-4c2f-a6b3-a8a489f6fd8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "UST_id" ""
-			(at 256.3368 -39.9288 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2e7ed275-4646-46c0-9bc4-630d0cee3e8f")
 			(effects
 				(font
 					(size 1 1)
@@ -12757,20 +12691,6 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_id" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6c8d4af3-a4b8-4d5c-b07e-7e9a57232b3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5fa6a047-d2e1-4a65-8568-b4e93098cac2")
 		(sheetname "/")
@@ -13467,20 +13387,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "UST_id" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b4cb23d8-e60e-42b9-aa50-8de753068b4a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
